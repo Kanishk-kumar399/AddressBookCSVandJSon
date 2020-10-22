@@ -5,10 +5,10 @@ import org.junit.Test;
 public class AddressBookTest 
 {
     @Test
-    public void given3Contact_WhenWrittenTo_CSVFileShouldPass() 
+    public void given3Contact_WhenWrittenToJSON_ShouldPass()
     {
-		AddressBookCSV addressBookCSVobject=new AddressBookCSV("./resources/AddressBookCSVTester.csv");
-		int readCSVContacts=addressBookCSVobject.readAddressBookFromCSVFile();
-		Assert.assertEquals(3,readCSVContacts);
-	}
+    		AddressBookJSON addressBookJSON=new AddressBookJSON();
+    		int numberOfContacts = addressBookJSON.readAddressBookFromAJSONFile("src/main/resources/JSONTest.json");
+    		Assert.assertEquals(3, numberOfContacts);
+    }
 }

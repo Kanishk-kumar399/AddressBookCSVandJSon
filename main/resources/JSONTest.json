@@ -1,0 +1,32 @@
+[
+{
+"firstName": "Kanishk",
+"lastName": "Kumar",
+"address": "Sh-3",
+"city": "Varanasi",
+"state": "UP",
+"pin": 221003,
+"phoneNo": 1465867555,
+"emailId": "kasnihk@gmail.com"
+},
+{
+"firstName": "Rainas",
+"lastName": "Suresh",
+"address": "B-34",
+"city": "Agra",
+"state": "MP",
+"pin": 56655,
+"phoneNo": 865466561,
+"emailId": "4asada@gmail.com"
+},
+{
+"firstName": "Rsds",
+"lastName": "tunesh",
+"address": "AB-sds34",
+"city": "Agratala",
+"state": "MPPPd",
+"pin": 545655,
+"phoneNo": 945466561,
+"emailId": "4asadsda@gmail.com"
+}
+]
